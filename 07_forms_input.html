@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Inputs</title>
+</head>
+<body>
+    <!-- action is where the form should be submitted to either email or other online forms -->
+    <form action="">
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" value="moise nizeyimana">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter an email">
+        </div>
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" cols="50" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="sex">Sex</label><br>
+            <select name="sex" id="sex">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age">
+        </div><br>
+        <div>
+            <label for="birthday">Birthday</label><br>
+            <input type="date" id="birthday" name="birthday">
+        </div><br>
+        <div>
+            <label for="membership">Membership</label><br>
+            <input type="radio" name="membership" value="simple" id="membership">
+            <input type="radio" name="membership" value="standard" id="membership">
+            <input type="radio" name="membership" value="premium" id="membership">
+        </div>
+        <div>
+            <label for="likes">I like...</label><br>
+            <input type="checkbox" name="likes" value="Bikes" id="likes">
+            <input type="checkbox" name="likes" value="Mercedes Benz" id="likes">
+            <input type="checkbox" name="likes" value="BOAT" id="likes">
+        </div>
+        <input type="submit" value="submit">
+
+        <!-- using buttons tags -->
+         <button></button>
+    </form>
+</body>
+</html>
